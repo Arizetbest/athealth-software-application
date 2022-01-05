@@ -1,0 +1,71 @@
+body{
+	background-color: #c7c7c7;/*#edeff0*/
+}
+
+#carouselExampleIndicators{
+	max-height: 280px; overflow: hidden;
+}
+
+.bg-blue, #footer{
+	background-color: #0b014d;
+}
+
+.logo-login{
+    width: 30%;
+}
+
+.side-profile{
+	max-width: 90px;
+	height: 90px;
+}
+
+
+#menu{
+    color: #FFF;
+}
+
+#menu a{
+	color: #fff;
+}
+
+#menu a:hover{
+	background-color: black;
+}
+
+#dialog{
+	background-color: #fff;
+	border: 0.1em solid #0b014d;
+	position: absolute;
+	top: -200%;
+	z-index: 99;
+	transition: all 1s;
+}
+/* body{
+	background-color: red;
+} */
+
+#menu > .dropdown-item:hover, #menu > .dropdown-item:focus{
+	color: black;
+}
+
+/* Remove increment and decrement icon on input type number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media(max-width: 992px){
+	#menu{
+		position: absolute;
+		left: -80%;
+		z-index: 98;
+		transition: all 2s;
+	}
+}
